@@ -21,7 +21,7 @@ public class PrimitiveServlet implements Servlet {
         System.out.println("service in");
         PrintWriter printWriter = servletResponse.getWriter();
         printWriter.println("this is 1");
-        printWriter.println("this is 2");
+        printWriter.print("this is 2");
 
 
     }
